@@ -1,5 +1,5 @@
 import React from 'react';
-
+import CustomButton from '../custom-button/custom-button.component'
 import FormInput from '../form-input/form-input.component';
 
 
@@ -50,6 +50,7 @@ class SignIn extends React.Component {
             label='password'
             required
           />
+          <CustomButton type='submit'> Sign In</CustomButton>
         </form>
       </div>
     );
